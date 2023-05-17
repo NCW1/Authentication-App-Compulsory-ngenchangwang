@@ -1,0 +1,48 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+label {
+	font-size: 16px;
+}
+
+input {
+	padding: 10px;
+	margin: 10px 0;
+	border-radius: 5px;
+}
+
+#submit {
+	border: none;
+	background-color: #1e90ff;
+	color: white;
+	padding: 15px;
+	width: 265px;
+	font-size: 16px;
+	border-radius: 30px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+#submit:hover {
+	background-color: #51a8fc;
+}
+
+#toggle-link {
+	cursor: pointer;
+	color: #1e90ff;
+}
+
+#toggle-link:hover {
+	color: #51a8fc;
+}
+
+#submit:hover,
+#toggle-link:hover {
+	transition: 0.5s ease all;
+	font-weight: bold;
+}

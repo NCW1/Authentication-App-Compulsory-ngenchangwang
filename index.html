@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script defer src="script.js"></script>
+	<title>Authentication App</title>
+</head>
+
+<body>
+	<h2 id="form-title">Login</h2>
+	<img src="login.png" alt="Login Image" height="250px">
+
+	<div>
+		<label for="username">Username</label>
+		<input id="username" type="text" required>
+	</div>
+
+	<div>
+		<label for="password">Password</label>
+		<input id="password" type="password" required>
+	</div>
+
+	<div id="confirm-password-container" style="display: none; margin-right: 60px;">
+		<label for="confirm-password">Confirm Password</label>
+		<input id="confirm-password" type="password">
+	</div>
+
+	<button id="submit" onclick="handleSubmit()">Login</button>
+	<p id="toggle-form">Don't have an account? <span id="toggle-link" onclick="toggleAuth()">Sign up</span></p>
+</body>
+
+</html>
